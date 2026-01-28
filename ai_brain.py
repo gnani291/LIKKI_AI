@@ -20,7 +20,6 @@ def get_ai_response(user_query):
             temperature=0.6,
             max_tokens=500
         )
-
         return response.choices[0].message.content
 
     except Exception as e:
