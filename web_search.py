@@ -1,6 +1,4 @@
 from duckduckgo_search import DDGS
-
-
 def search_web(query):
 
     results = []
