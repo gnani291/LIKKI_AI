@@ -12,9 +12,9 @@ from dotenv import load_dotenv
 import pytesseract
 #LOAD .ENV
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")       # AI key
-MODEL_NAME = os.getenv("MODEL_NAME")           # AI model name
-PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY") # Pixabay key for image search
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")       
+MODEL_NAME = os.getenv("MODEL_NAME")           
+PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY") 
 
 st.set_page_config(page_title="LIKKI AI Assistant", page_icon="🤖", layout="wide")
 st.title("🤖 LIKKI AI Assistant")
