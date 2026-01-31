@@ -1,0 +1,27 @@
+# UI
+streamlit==1.29.0
+rich==13.9.4
+
+# AI Brain
+groq==1.0.0
+
+# Speech Recognition (file upload only)
+SpeechRecognition==3.14.5
+
+# Environment
+python-dotenv==1.0.1
+
+# Image handling
+pillow==10.0.0
+
+# Web Search
+duckduckgo-search==8.1.1
+youtube-search-python==1.6.6
+
+# Utilities
+numpy==1.25.2
+packaging>=23.0,<24
+protobuf==4.25.3
+tenacity==8.5.0
+tzlocal==5.3.1
+validators==0.35.0
