@@ -1,5 +1,6 @@
 🚀 Introducing LIKKI AI Assistant — My all-in-one voice-enabled, multimodal AI system built using Python and Generative AI.
 💬 What Can LIKKI Do?
+
 LIKKI is not a basic chatbot. It is a full-featured AI assistant capable of:
 ✅ Generating responses in TEXT + AUDIO at the same time
  ✅ Understanding voice commands in real-time
@@ -9,7 +10,9 @@ LIKKI is not a basic chatbot. It is a full-featured AI assistant capable of:
  ✅ Displaying everything inside a clean Streamlit Web UI
  ✅ Providing smart AI-powered answers
 Yes — it can speak + show + search + read images simultaneously ⚡
+
 🧠 How It Works (Tech Stack)
+
 Behind the scenes, LIKKI uses:
 🔹 Python (Core Logic)
  🔹 Streamlit (Web Interface)
