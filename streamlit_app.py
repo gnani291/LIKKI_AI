@@ -10,7 +10,7 @@ from io import BytesIO
 from youtubesearchpython import VideosSearch
 from dotenv import load_dotenv
 import pytesseract
-#LOAD .ENV
+
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")       
 MODEL_NAME = os.getenv("MODEL_NAME")           
