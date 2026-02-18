@@ -19,7 +19,6 @@ PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY")
 st.set_page_config(page_title="LIKKI AI Assistant", page_icon="🤖", layout="wide")
 st.title("🤖 LIKKI AI Assistant")
 
-# SIDEBAR OPTIONS
 enable_voice = st.sidebar.checkbox("Enable Voice Input", value=True)
 enable_tts = st.sidebar.checkbox("Enable Voice Output", value=True)
 
