@@ -129,8 +129,7 @@ if st.session_state.query:
             st.info("No videos found")
     except Exception as e:
         st.error(f"Video Search Error: {e}")
-
-    # Clear query after processing
+        
     st.session_state.query = ""
 
 # OCR UPLOAD SECTION
