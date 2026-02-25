@@ -49,7 +49,7 @@ def extract_text_from_image(image):
     except:
         return ""
 
-# PIXABAY IMAGE SEARCH
+#PIXABAY IMAGE SEARCH
 def search_images_pixabay(query, count=9):
     url = "https://pixabay.com/api/"
     params = {
