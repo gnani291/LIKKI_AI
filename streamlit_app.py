@@ -41,7 +41,7 @@ def listen_command():
         st.warning("❌ Could not understand audio")
         return ""
 
-# OCR FUNCTION
+#OCR FUNCTION
 def extract_text_from_image(image):
     try:
         text = pytesseract.image_to_string(image)
