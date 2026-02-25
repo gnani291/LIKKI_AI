@@ -61,7 +61,7 @@ def search_images_pixabay(query, count=9):
     response = requests.get(url, params=params).json()
     return [img["largeImageURL"] for img in response.get("hits", [])]
 
-# QUERY INPUT
+#QUERY INPUT
 col1, col2 = st.columns([1, 2])
 
 with col1:
