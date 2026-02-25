@@ -28,7 +28,7 @@ if "chat_history" not in st.session_state:
 if "query" not in st.session_state:
     st.session_state.query = ""
 
-# VOICE INPUT
+#VOICE INPUT
 def listen_command():
     r = sr.Recognizer()
     with sr.Microphone() as source:
