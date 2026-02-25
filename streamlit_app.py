@@ -79,7 +79,7 @@ with col2:
             st.session_state.query = text_input.strip()
             st.session_state.chat_history.append({"role": "user", "content": text_input.strip()})
 
-# PROCESS QUERY
+#PROCESS QUERY
 if st.session_state.query:
     query = st.session_state.query
 
