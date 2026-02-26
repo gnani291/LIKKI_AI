@@ -50,7 +50,6 @@ def ask_ai(prompt):
         print("AI ERROR:", e)
         return "Sorry, I am having trouble connecting to my brain."
 
-
 def main():
 
     print("================================")
