@@ -83,8 +83,6 @@ def main():
                 speak(answer)
             else:
                 speak("Sorry, I could not generate a response.")
-
-
 if __name__ == "__main__":
     main()
 
