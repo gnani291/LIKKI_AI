@@ -31,7 +31,6 @@ def listen():
     except sr.RequestError:
         print("❌ Speech service error")
         return ""
-
 def ask_ai(prompt):
     try:
         response = client.chat.completions.create(
