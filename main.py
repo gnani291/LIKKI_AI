@@ -5,7 +5,6 @@ from groq import Groq
 from datetime import datetime
 from tts_output import speak  
 
-
 load_dotenv()
 
 
