@@ -1,5 +1,6 @@
 import speech_recognition as sr
 
+
 def listen_command():
     recognizer = sr.Recognizer()
 
