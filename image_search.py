@@ -1,6 +1,5 @@
 from duckduckgo_search import DDGS
 import time
-
 def search_images(query):
 
     images = []
