@@ -1,4 +1,4 @@
-🚀 LIKKI AI Assistant
+🚀  LIKKI AI Assistant
 
 A production-style Multimodal AI Assistant built using Python and Generative AI.
 
